@@ -36,7 +36,7 @@ GO
 
 INSERT INTO Cars(RegNo, Colour, Make, [Owner])
 VALUES
-	('AA11777', 'Blue', 'Audi', 10005)
+	('AA11777', 'Blue', 'Audi', 10005),
 	('JJ66CUP', 'Silver', 'Citroen', 10007),
 	('PK44TUL', 'Red', 'Mercedes', 10001),
 	('QQ34BBB', 'Blue', 'Ford', 10006),
