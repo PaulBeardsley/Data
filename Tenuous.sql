@@ -1,4 +1,4 @@
-USE PaulDB
+USE PaulsDB
 
 CREATE TABLE tenuous(
 	C1 varchar(20),
