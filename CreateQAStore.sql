@@ -55,11 +55,11 @@ PRIMARY KEY CLUSTERED
 GO
 SET ANSI_PADDING OFF
 GO
-INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (1, N'Animal Products     ', N'Adam Apricot        ', CAST(5.0000 AS Decimal(12, 4)))
-INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (2, N'Business Systems    ', N'Barbara Banana      ', CAST(15.0000 AS Decimal(12, 4)))
-INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (3, N'Credit Control      ', N'Paul Peach          ', CAST(25.0000 AS Decimal(12, 4)))
-INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (4, N'Desktop Systems     ', N'Diver Dan           ', CAST(5.0000 AS Decimal(12, 4)))
-INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (5, N'Electrical Repairs  ', N'Xavier Xylophone    ', CAST(45.0000 AS Decimal(12, 4)))
+INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (1, N'Animal Products     ', N'Adam Apricot        ', CAST(5.00 AS Decimal(5, 2)))
+INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (2, N'Business Systems    ', N'Barbara Banana      ', CAST(15.00 AS Decimal(5, 2)))
+INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (3, N'Credit Control      ', N'Paul Peach          ', CAST(25.00 AS Decimal(5, 2)))
+INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (4, N'Desktop Systems     ', N'Diver Dan           ', CAST(5.00 AS Decimal(5, 2)))
+INSERT [dbo].[dept] ([dept_no], [dept_name], [manager], [sales_target]) VALUES (5, N'Electrical Repairs  ', N'Xavier Xylophone    ', CAST(45.00 AS Decimal(5, 2)))
 /****** Object:  Table [dbo].[contact]    Script Date: 12/16/2010 10:45:46 ******/
 SET ANSI_NULLS ON
 GO
@@ -104,7 +104,7 @@ CREATE TABLE [dbo].[salesperson](
 	[fname] [varchar](15) NULL,
 	[lname] [varchar](15) NOT NULL,
 	[dept_no] [int] NULL,
-	[sales_target] [decimal](12, 4) NULL,
+	[sales_target] [decimal](5,2) NULL,
 	[county] [varchar](15) NULL,
 	[post_code] [char](10) NULL,
 	[tel] [varchar](15) NULL,
