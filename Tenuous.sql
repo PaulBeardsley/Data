@@ -1,5 +1,3 @@
-USE PaulsDB
-
 CREATE TABLE tenuous(
 	C1 varchar(20),
 	C2 varchar(20),
