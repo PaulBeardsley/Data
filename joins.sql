@@ -1,5 +1,3 @@
-USE PaulsDB
-
 CREATE TABLE suppliers(
 	SupplierID varchar(4),
 	SupplierName varchar(20)
