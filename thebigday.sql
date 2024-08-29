@@ -1,5 +1,3 @@
-USE Wedding
-
 CREATE TABLE returns(
 	Item varchar(20),
 	[Desc] varchar(50)
